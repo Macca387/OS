@@ -16,4 +16,4 @@ nasm src/bootv3.asm -f bin -o bin/bootv3.bin
 Start QEMU using the below command.
 qemu-system-x86_64 -fda bin/bootv3.bin
 
-I put the linux kernel in here so that I can look at how people who know what they are doing write what I want to do. It's gonna take a while to get through it all.
+Ok I have no idea what I am doing to load into a stage 2.
